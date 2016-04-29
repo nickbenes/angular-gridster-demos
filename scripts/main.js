@@ -1,3 +1,5 @@
+angular.module('app', ['gridster', 'ui.bootstrap'])
+
 angular.module('app')
 
 .controller('DashboardCtrl', ['$scope', '$timeout',
@@ -15,12 +17,14 @@ angular.module('app')
 				id: '1',
 				name: 'Home',
 				widgets: [{
+					id: 1,
 					col: 0,
 					row: 0,
 					sizeY: 1,
 					sizeX: 1,
 					name: "Widget 1"
 				}, {
+					id: 2,
 					col: 2,
 					row: 1,
 					sizeY: 1,
@@ -32,12 +36,14 @@ angular.module('app')
 				id: '2',
 				name: 'Other',
 				widgets: [{
+					id: 3,
 					col: 1,
 					row: 1,
 					sizeY: 1,
 					sizeX: 2,
 					name: "Other Widget 1"
 				}, {
+					id: 4,
 					col: 1,
 					row: 3,
 					sizeY: 1,
@@ -72,7 +78,7 @@ angular.module('app')
 
 	}
 ])
-
+/*
 .controller('CustomWidgetCtrl', ['$scope', '$modal',
 	function($scope, $modal) {
 
@@ -139,7 +145,7 @@ angular.module('app')
 
 	}
 ])
-
+*/
 // helper code
 .filter('object2Array', function() {
 	return function(input) {

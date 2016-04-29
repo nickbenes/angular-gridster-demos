@@ -1,0 +1,23 @@
+{
+  "name": "angular-gridster-demos",
+  "homepage": "https://github.com/nickbenes/angular-gridster-demos",
+  "authors": [
+    "Nick Benes <nickbenes@gmail.com>"
+  ],
+  "description": "Angular Gridster demos",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.5",
+    "angular-gridster": "~0.13.5",
+    "angular-bootstrap": "~1.3.2"
+  }
+}
